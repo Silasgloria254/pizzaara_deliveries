@@ -1,1 +1,12 @@
 
+.list  {
+    list-style-type: none;
+    display: flex;
+    padding: 0 1em;
+    gap:2em;
+}
+.list-1{
+    background-color: #eea539;
+    padding: 2px 2px;
+    } 
+    .
