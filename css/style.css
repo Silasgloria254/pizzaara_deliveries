@@ -2,9 +2,13 @@
 @import url("sections/hero.css");
 @import url("sections/main.css");
 
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+
 .container {
   width: 90%;
   margin: 0 auto;
+  font-family: "Kanit", sans-serif;
 }
 .heading {
   font-size: 70px;
@@ -153,10 +157,12 @@
 .email {
   background-color: whitesmoke;
   /* padding: 2em 2em; */
+  border: none;
 }
 .email button {
   text-align: center;
-  color: black;
+  /* color: black; */
+
   background-color: #eea359;
   padding: 2em 2em;
   border: none;
