@@ -54,6 +54,14 @@
 
   
 }
+.btn__black--search{
+
+padding: 2em 4em;
+background-color: black;
+color: white;
+border: none;
+/* margin-bottom: -70%; */
+}
 
 .img {
   z-index: 1;
