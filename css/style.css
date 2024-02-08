@@ -58,6 +58,7 @@
 .img {
   z-index: 1;
   margin-top: -40%;
+  /* padding-top"em; */
 }
 .btn-orange button {
   padding: 1em 4em;
