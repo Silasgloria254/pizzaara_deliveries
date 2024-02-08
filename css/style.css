@@ -41,7 +41,6 @@
   color: white;
   border: none;
   margin-bottom: -70%;
-  
 }
 
 .category__pizza h4 {
@@ -51,16 +50,13 @@
 .category__pizza--image {
   background-color: whitesmoke;
   padding: 1em 2em;
-
-  
 }
-.btn__black--search{
-
-padding: 2em 4em;
-background-color: black;
-color: white;
-border: none;
-margin-bottom: -70%;
+.btn__black--search {
+  padding: 2em 4em;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-bottom: -70%;
 }
 
 .img {
@@ -103,7 +99,7 @@ margin-bottom: -70%;
 
 .singleitem {
   display: flex;
-   align-items: center;
+  align-items: center;
   gap: 3em;
   background-color: whitesmoke;
   margin: 3em 0;
@@ -146,14 +142,13 @@ margin-bottom: -70%;
   padding: 0 1em;
   gap: 2em;
 }
-.footer__section--two  li:hover {
+.footer__section--two li:hover {
   color: #eea539;
 }
-.footer__section--two  li {
+.footer__section--two li {
   padding: 1.5em 1.5em;
   cursor: pointer;
   list-style-type: none;
-  
 }
 .email {
   background-color: whitesmoke;
@@ -165,24 +160,22 @@ margin-bottom: -70%;
   background-color: #eea359;
   padding: 2em 2em;
   border: none;
-  
 }
 .type {
   padding: 2em 2em;
   border: none;
 }
-.products{
+.products {
   padding-top: 7%;
 }
-.products__content{
+.products__content {
   display: flex;
   flex-wrap: wrap;
   gap: 4em;
- 
 }
-.content__aboutus{
+.content__aboutus {
   display: flex;
-  gap:2em;
+  gap: 2em;
   font-size: 2rem;
   line-height: 1.5em;
 }
