@@ -1,49 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="css/style.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pizzaaara-deliveries</title>
+  </head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>pizzaaara-deliveries</title>
+  <body>
+    <!-- header -->
 
+    <nav class="header-nav">
+      <div class="container">
+        <div class="header-nav-container">
+          <div class="header-nav-left">
+            <img src="images/logo.svg" />
+          </div>
+          <div class="header-nav-center">
+            <ul>
+              <li><a href="#"></a>home</li>
+              <li><a href="#"></a>About Us</li>
+              <li><a href="shop.html"></a>Shop</li>
+              <!-- <li><a href="#"></a>Contact</li> -->
+            </ul>
+          </div>
+          <div class="header-nav-right">
+            <img src="images/shopping-cart.png" width="30px" />
+            <img src="images/avatar.png" width="30px" />
+          </div>
+          <i class="fa-solid fa-list"></i>
+        </div>
+      </div>
+    </nav>
 
-<body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="nav-left">
-                <div class="header_nav_container">
-                    <img src="images/logo.svg">
-                    <div class="nav-right">
-                        <ul>
-                            <li class="list-1"><a href="#"></a>home</li>
-                            <li><a href="#"></a>About Us</li>
-                            <li><a href="#"></a>Shop</li>
-                            <li><a href="#"></a>Contact</li>
-                        </ul>
+    <!-- main -->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__content--left">
+              <h3>Easy way to order your food</h3>
+              <h1 class="heading">
+                Choosing <span style="color: #eea539">Health </span>
+                <br />&<span style="color: #eea539">Fresh</span>
+                Pizza
+              </h1>
+
+              <p>
+                We offer the fastest and favorite pizza delivery services all
+                over the country. Search for your favorite pizza toppings here.
+              </p>
+
+              <div class="inputs">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="find pizza type" class="type" />
+                <button>search</button>
+              </div>
+
+              <div>
+                <div class="round-g-container">
+                  <div class="image-card">
+                    <div class="image-round">
+                      <img
+                        class="image-center"
+                        src="images/cutlery.png"
+                        width="30px"
+                      />
                     </div>
-                    <div class="header-nav"></div>
-                        <img src="images/shopping-cart.png" width="30px">
-                        <img src="images/avatar.png" width="30px">
+                    <p style="text-align: center; font-weight: bold">500+</p>
+                    <p style="text-align: center; font-weight: bold">
+                      Resturants
+                    </p>
+                  </div>
+
+                  <div class="image-card" id="card">
+                    <div class="image-round">
+                      <img
+                        class="image-center"
+                        src="images/fresh-pizza.png"
+                        width="30px"
+                      />
                     </div>
+                    <p style="text-align: center; font-weight: bold">200+</p>
+                    <p style="text-align: center; font-weight: bold">
+                      Pizza Varities
+                    </p>
+                  </div>
+                  <div class="image-card">
+                    <div class="image-round">
+                      <img
+                        class="image-left"
+                        src="images/star.png"
+                        width="30px"
+                        ;
+                      />
+                    </div>
+                    <p style="text-align: center; font-weight: bold">(7.8)</p>
+                    <p style="text-align: center; font-weight: bold">
+                      10k Reviews
+                    </p>
+                  </div>
                 </div>
-                </div>
-            </nav> 
-        </header>
-        <section>
-            <h5> Easy way to order your food</h5>
-            <h1> <span class="Choosing"></span>  Health &Fresh Pizza </h1>
-                
-                <p>We offer the fastest and favorite pizza delivery services all over the country.
-                    
-                    Search for your favorite pizza toppings here.</p>
-                    <form class="example" action="action_page.php">
-                      <input type="text" placeholder="Search.." name="search">
-                      <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
+              </div>
+            </div>
+            <div class="hero__content--right">
+              <div>
+                <img src="images/hero-pizza.png" width="400px" />
+              </div>
+              <div>
+                <img src="images/pizza-1.png" width="100px" />
+                <img src="images/pizza-2.png" width="95px" />
+                <img src="images/pizza-3.png" width="95px" />
+                <img src="images/pizza-4.png" width="95px" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- menu -->
+    <section>
+      <div class="container">
+        <h2 style="color: #eea539; text-align: center">New in menu</h2>
+        <p style="text-align: center; font-size: 2rem; margin: 1em 0">
+          <span style="color: #eea539" ;>Special menu</span> for you
+        </p>
+      </div>
+      <div class="category">
+        <h2>Chicken Pizza</h2>
+        <h2>Perpperoni</h2>
+        <h2>margherita</h2>
+        <h2>Hawaiian</h2>
+        <h2>Meat Lover's pizza</h2>
+      </div>
+      <div class="category__border"></div>
+
+      <div class="category__pizza">
+        <div class="category__pizza--image" >
+          <div class="img">
+          <img src ="images/barbecue-chicken-pizza.png" width="150px" >
+        </div>
+          <h4>BBQ chicken pizza</h4>
+          <p class="cheese">(cheese with shrimp)</p>
+          <h4>ksh.1500</h4>
+          <div class="btn-container">
+          <button class="btn-black">Add to cart</button>
+        </div>
+          </div>
+          
+            <div class="category__pizza--image" >
+              <div  class="img">
+          <img src ="images/tandoori-chicken.png" width="150px">
+        </div>
+          <h4>Tandoori chicken pizza</h4>
+          <p class="cheese">(cheese with shrimp)</p>
+          <h4>ksh.1500</h4>
+          <div class="btn-container">
+          <button class="btn-black">Add to cart</button>
+        </div>
+          </div>
+
+
+          <div class="category__pizza--image" >
+            <div class="img">
+             <img src ="images/chicken-kebab.png" width="200px";>
+            </div>
+          <h4>Chicken kebeb pizza</h4>
+          <p class="cheese">(cheese with shrimp)</p>
+          <h4>ksh.1500</h4>
+          <div class="btn-container">
+          <button  class="btn-black">Add to cart</button>
+        </div>
+          </div>
+        </div>
+      
+        <div class="btn-orange">
+          <button>View more</button>
+        </div>
     </section>
-</body>
+
+    <!-- about us -->
+    <section>
+      <div class="container">
+      <div class="section-about">
+      <div>
+        <img src="images/why-us.png" width="500px" height="750px">
+      </div>
+      <div>
+        <h3><span style="color: #eea539">Why us</span></h3>
+        <h2>Why We Are <span style="color: #eea539">The Best</span></h2>
+        <p>We always try to maintain our food quality for our customers. 
+          Our customers’ satisfaction is our top priority.
+        </p>
+        <div class="about-content">
+          <div class="singleitem">
+            <div class="bg-image">
+            <img src="images/fresh-pizza.png" width="50px">
+          </div>
+          <div>
+            <h2>fresh pizza</h2>
+            <p>We make our pizza to suit your needs as we use the best quality ingredients.</p>
+          </div>
+          </div>
+
+          <div class="singleitem">
+            <div class="bg-image">
+            <img src="images/fast-delivery.png" width="50px">
+          </div>
+          <div>
+            <h2>Fast Delivery</h2>
+            <p>Through rapid delivery, we provide a high level of customer service</p>
+          </div>
+          </div>
+          <div class="singleitem">
+            <div class="bg-image">
+          <img src="images/quality.png" width="50px">
+        </div>
+        <div>
+          <h2>Best Quality</h2>
+          <p>Our delivery service that is available at any time and usually everyday.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+
+    <section>
+      <div>
+        <div class="container">
+          <h2 style="color: #eea539; text-align: center">Need any help?</h2>
+          <p style="text-align: center; font-size: 2rem; margin: 1em 0">
+            <span style="color: #eea539" ;>Our support team</span> is ready to assist you
+          </p>
+        </div>
+
+        <div class="information">
+          <div class="information__image">
+            <div class="information__image--icons">
+              <img src="images/mail.png" width="30px">
+            </div>
+          <h3>Email address</h3>
+          <p>pizaaradeliveries@info.com</p>
+        </div>
+        
+
+        <div class="information__image">
+          <div class="information__image--icons">
+       <img src="images/live-support.png" width="30px">
+          </div>
+          <h3>Live Support</h3>
+          <p>Get live support now</p>
+        </div>
+
+        <div class="information__image">
+          <div class="information__image--icons">
+          <img src="images/phone.png" width="30px">
+          </div>
+          <h3>Phone Number</h3>
+          <p>+2547 11 555 888</p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section>
+      <div class="footer__section">
+        <div class="footer__section--one">
+          <img src="images/logo_light.svg">
+          <h3>Stay connected</h3>
+          <div >
+            <img src="images/facebook.png"  width="30px"/>
+            <img src="images/instagram.png"  width="30px"/>
+            <img src="images/twitter.png"  width="30px"/>
+            <img src="images/linkedin.png" width="30px"/>
+          </div>
+        </div>
+      
+        <div class="footer__section--two">
+          <h2>Quick link</h2>
+        <li>Home</li>
+        <li> Shop</li>
+        <li>About us</li>
+        </div>
+
+        <div class="footer__section--three">
+          <p>Subscribe To Our Newsletter to
+            stay updated</p>
+            <div class="email">
+              <input type="text" placeholder="email address" class="type" />
+              <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+  </body>
 </html>
