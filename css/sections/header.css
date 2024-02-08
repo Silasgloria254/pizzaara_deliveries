@@ -1,12 +1,109 @@
-
-.list  {
-    list-style-type: none;
-    display: flex;
-    padding: 0 1em;
-    gap:2em;
+.list {
+  list-style-type: none;
+  display: flex;
+  padding: 0 1em;
+  gap: 2em;
 }
-.list-1{
-    background-color: #eea539;
-    padding: 2px 2px;
-    } 
-    .
+.list-1 {
+  background-color: #eea539;
+  padding: 2px 2px;
+}
+.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-center ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.header-nav-center ul li:hover{
+  background-color: #eea539;
+}
+.header-nav-center ul li {
+  padding: 1.5em 1.5em;
+  cursor: pointer;
+}
+.header-list {
+  background-color: #eea539;
+  color: #fff;
+}
+.header-nav {
+  background-color: whitesmoke;
+}
+
+Hero section .inputs {
+  border: 2px solid black;
+  /* border-radius: 5px; */
+}
+.hero__content {
+  display: flex;
+}
+.image-card {
+  background-color: #f4f7fb;
+  padding: 2em 2em;
+  border: none;
+  border: solid white 1px;
+}
+.image-round {
+  background-color: black;
+  border-radius: 60%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.round-container {
+  display: flex;
+  align-items: center;
+}
+
+.round-g-container{
+    display: flex;
+    border:none;
+    
+}
+.hero__content--right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+list {
+  list-style-type: none;
+  display: flex;
+  padding: 0 1em;
+  gap: 2em;
+}
+.list-1 {
+  background-color: #eea539;
+  padding: 2px 2px;
+}
+.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-center ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.header-nav-center ul li:hover{
+  background-color: #eea539;
+}
+.header-nav-center ul li {
+  padding: 1.5em 1.5em;
+  cursor: pointer;
+}
+.header-list {
+  background-color: #eea539;
+  color: #fff;
+}
+.header-nav {
+  background-color: whitesmoke;
+}
