@@ -11,6 +11,7 @@
 .header-nav-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header-nav-center ul {
   list-style-type: none;
@@ -43,7 +44,7 @@ Hero section .inputs {
   background-color: #f4f7fb;
   padding: 2em 2em;
   border: none;
-  border: solid white 1px;
+  border: solid white 0.5px;
 }
 .image-round {
   background-color: black;
@@ -59,7 +60,6 @@ Hero section .inputs {
   display: flex;
   align-items: center;
 }
-
 .round-g-container{
     display: flex;
     border:none;
@@ -69,12 +69,7 @@ Hero section .inputs {
     display: flex;
     flex-direction: column;
 }
-
-
-
-
-
-list {
+.list {
   list-style-type: none;
   display: flex;
   padding: 0 1em;

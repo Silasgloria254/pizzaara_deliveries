@@ -3,12 +3,16 @@
 @import url("sections/main.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Kanit", sans-serif;
+}
 
 .container {
   width: 90%;
   margin: 0 auto;
-  font-family: "Kanit", sans-serif;
 }
 .heading {
   font-size: 70px;
@@ -23,6 +27,7 @@
   display: flex;
   justify-content: space-evenly;
   cursor: pointer;
+  padding: 2em;
 }
 
 .category h2:hover {
@@ -158,7 +163,13 @@
   background-color: whitesmoke;
   /* padding: 2em 2em; */
   border: none;
+
 }
+.email input{
+
+  outline: none;
+}
+
 .email button {
   text-align: center;
   /* color: black; */
@@ -184,4 +195,5 @@
   gap: 2em;
   font-size: 2rem;
   line-height: 1.5em;
+  padding: 1em;
 }
