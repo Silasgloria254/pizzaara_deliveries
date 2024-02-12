@@ -18,12 +18,22 @@
   display: flex;
 }
 
-.header-nav-center ul li:hover{
+.header-nav-center ul li:hover {
   background-color: #eea539;
 }
 .header-nav-center ul li {
   padding: 1.5em 1.5em;
   cursor: pointer;
+}
+.header-nav-center ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header-nav-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 .header-list {
   background-color: #eea539;
@@ -33,18 +43,35 @@
   background-color: whitesmoke;
 }
 
-Hero section .inputs {
-  border: 2px solid black;
-  /* border-radius: 5px; */
-}
+
 .hero__content {
   display: flex;
+}
+
+.inputs{
+  border: 2px solid #f4f7fb;
+  padding-left: 1em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.inputs input{
+  padding: 2em;
+  border: none;
+  outline: none;
+  flex: 1;
 }
 .image-card {
   background-color: #f4f7fb;
   padding: 2em 2em;
   border: none;
   border: solid white 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
 .image-round {
   background-color: black;
@@ -54,20 +81,21 @@ Hero section .inputs {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .round-container {
   display: flex;
   align-items: center;
 }
-.round-g-container{
-    display: flex;
-    border:none;
-    
+.round-g-container {
+  display: flex;
+
+  border: none;
+  flex-wrap: wrap;
 }
-.hero__content--right{
-    display: flex;
-    flex-direction: column;
+.hero__content--right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .list {
   list-style-type: none;
@@ -79,16 +107,13 @@ Hero section .inputs {
   background-color: #eea539;
   padding: 2px 2px;
 }
-.header-nav-container {
-  display: flex;
-  justify-content: space-between;
-}
+
 .header-nav-center ul {
   list-style-type: none;
   display: flex;
 }
 
-.header-nav-center ul li:hover{
+.header-nav-center ul li:hover {
   background-color: #eea539;
 }
 .header-nav-center ul li {
@@ -101,4 +126,35 @@ Hero section .inputs {
 }
 .header-nav {
   background-color: whitesmoke;
+}
+
+.hero__content--left {
+  flex: 1;
+}
+
+.header-nav-right i {
+  display: none;
+}
+.hero__content--right div:first-child img {
+  width: 100%;
+}
+.hero__content--right-image img {
+  width: 23%;
+}
+
+/* media query */
+
+@media screen and (max-width: 720px) {
+  .hero__content--right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .header-nav-center {
+    display: none;
+  }
+  .header-nav-right i {
+    display: inline-block;
+  }
 }
