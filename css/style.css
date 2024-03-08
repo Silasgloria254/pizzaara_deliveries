@@ -1,5 +1,5 @@
 @import url("sections/header.css");
-@import url("sections/hero.css");
+/* @import url("sections/hero.css"); */
 @import url("sections/main.css");
 @import url("sections/Aboutus.css");
 
@@ -26,7 +26,9 @@ font-family: "Kanit", sans-serif;
   margin: 2em 0;
 }
 
-
+.active{
+  color: #eea359;
+}
 
 
 .category {
@@ -36,9 +38,9 @@ font-family: "Kanit", sans-serif;
   padding: 2em;
 }
 
-.category h2:hover {
-  color: #eea359;
-}
+/* .category h2:hover { */
+  /* color: #eea359; */
+/* } */
 .cheese {
   color: lightgray;
   text-align: center;
@@ -48,7 +50,6 @@ font-family: "Kanit", sans-serif;
   justify-content: center;
   align-items: center;
   gap: 6em;
-  /* margin-top: 2em; */
 }
 .btn-black {
   padding: 1em 4em;
@@ -78,7 +79,6 @@ font-family: "Kanit", sans-serif;
 .img {
   z-index: 1;
   margin-top: -40%;
-  /* padding-top"em; */
 }
 .btn-orange button {
   padding: 1em 4em;
@@ -125,7 +125,6 @@ font-family: "Kanit", sans-serif;
   border: none;
   justify-content: space-evenly;
   text-align: center;
-  /* padding: 0 em ; */
 }
 .information__image {
   background-color: whitesmoke;
@@ -169,20 +168,14 @@ font-family: "Kanit", sans-serif;
 }
 .email {
   background-color: whitesmoke;
-  /* padding: 2em 2em; */
   border: none;
-  
-
 }
 .email input{
-
   outline: none;
 }
 
 .email button {
   text-align: center;
-  /* color: black; */
-
   background-color: #eea359;
   padding: 2em 2em;
   border: none;
