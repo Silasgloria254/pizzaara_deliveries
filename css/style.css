@@ -4,14 +4,12 @@
 @import url("sections/Aboutus.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Kanit", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
 }
-
-
 
 .container {
   width: 90%;
@@ -26,10 +24,9 @@ font-family: "Kanit", sans-serif;
   margin: 2em 0;
 }
 
-.active{
+.active {
   color: #eea359;
 }
-
 
 .category {
   display: flex;
@@ -39,7 +36,7 @@ font-family: "Kanit", sans-serif;
 }
 
 /* .category h2:hover { */
-  /* color: #eea359; */
+/* color: #eea359; */
 /* } */
 .cheese {
   color: lightgray;
@@ -62,10 +59,36 @@ font-family: "Kanit", sans-serif;
 .category__pizza h4 {
   text-align: center;
 }
+.cart__product {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1em;
 
+}
+.cart__product p{
+align-items: center;
+margin-top: 2em;
+}
+
+.btn_increment{
+padding: 1em 1em;
+margin: 2em 2em;
+
+}
+.btn_decrement{
+  padding: 1em 1em;
+  margin: 2em 2em;
+
+}
 .category__pizza--image {
   background-color: whitesmoke;
   padding: 1em 2em;
+  /* display: flex; */
+}
+.category__pizza--images {
+  display: flex;
+  flex-wrap: wrap;
 }
 .btn__black--search {
   padding: 2em;
@@ -74,6 +97,21 @@ font-family: "Kanit", sans-serif;
   border: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.cart {
+  position: relative;
+}
+.counter__1 {
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -12px;
+  right: -25px;
 }
 
 .img {
@@ -134,7 +172,6 @@ font-family: "Kanit", sans-serif;
   flex-direction: column;
   padding: 1em 6em;
   text-align: center;
-
 }
 .information__image--icons {
   background-color: whitesmoke;
@@ -170,7 +207,7 @@ font-family: "Kanit", sans-serif;
   background-color: whitesmoke;
   border: none;
 }
-.email input{
+.email input {
   outline: none;
 }
 
